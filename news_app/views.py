@@ -3,7 +3,7 @@ from django.views.generic import ListView
 from newspaper.models import Post
 
 
-class HomePageView(ListView):  # Fixed `List View` to `ListView`
+class HomePageView(ListView): 
     model = Post
     template_name = 'aznews/home.html'
     context_object_name = "posts"
