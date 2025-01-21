@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView
-from newspaper.models import Post
+from news.models import Post
 
 
 class HomePageView(ListView): 
